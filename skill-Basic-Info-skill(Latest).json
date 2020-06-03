@@ -1,0 +1,2337 @@
+{
+  "intents": [
+    {
+      "intent": "eCommerce_Past_Payment_Inquiry",
+      "examples": [
+        {
+          "text": "I'd like to check the status of a bill I paid as it has not been credited to my account."
+        },
+        {
+          "text": "I want to make sure that a payment was credited to my account. can you verify that?"
+        },
+        {
+          "text": "Indicate payment for the purchase of my device six months ago"
+        },
+        {
+          "text": "How do I review my payments?"
+        },
+        {
+          "text": "I want payment information by a device two months ago"
+        },
+        {
+          "text": "I paid my bill but got sent an overdue notice, my bank statement shows it went through so why does it say its overdue?"
+        },
+        {
+          "text": "I need some details about my last month payment."
+        },
+        {
+          "text": "I can't find my payment"
+        },
+        {
+          "text": "I already pay that in this month"
+        },
+        {
+          "text": "My bill says I didn't make a payment last month, but I did, can you look into this please?"
+        },
+        {
+          "text": "Can I get a payment record for these whole year?"
+        },
+        {
+          "text": "Can you tell me if I paid my bill with my credit card?"
+        },
+        {
+          "text": "Does the payment for july is already done?"
+        },
+        {
+          "text": "Have I paid my bill?"
+        },
+        {
+          "text": "How can I know my payment went through?"
+        },
+        {
+          "text": "When was this specific payment made?"
+        },
+        {
+          "text": "Wanted to make sure my payment was received."
+        },
+        {
+          "text": "Verify payment"
+        },
+        {
+          "text": "Past payment"
+        }
+      ],
+      "description": "Inquire about payments made in the past."
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "Morning, can you tell me by what methods I can settle my monthly bill?"
+        },
+        {
+          "text": "Update card"
+        },
+        {
+          "text": "What kind of payments are accepted?"
+        },
+        {
+          "text": "What did I pay for credit card?"
+        },
+        {
+          "text": "What are your payment options?"
+        },
+        {
+          "text": "What are the payment methods?"
+        },
+        {
+          "text": "Change payment setup"
+        },
+        {
+          "text": "Direct transfer"
+        },
+        {
+          "text": "Do you accept bank wires?"
+        },
+        {
+          "text": "Do you accept visa?"
+        },
+        {
+          "text": "Do you take discover?"
+        },
+        {
+          "text": "Hi, can I pay for the service by paypal?"
+        },
+        {
+          "text": "How can I pay you?"
+        },
+        {
+          "text": "I need to add a new payment card"
+        },
+        {
+          "text": "I need to change my credit card"
+        },
+        {
+          "text": "I want to change my payment preferences."
+        },
+        {
+          "text": "I want to switch what card my payment is taken from"
+        },
+        {
+          "text": "Is there a chance I can pay with cash upon delivery?"
+        },
+        {
+          "text": "Till now, I was paying in cash. may I pay the future payments through credit card?"
+        },
+        {
+          "text": "Pay by email"
+        }
+      ],
+      "description": "Manage the method of payment for a bill."
+    },
+    {
+      "intent": "about_assistant",
+      "examples": [
+        {
+          "text": "what do you do"
+        },
+        {
+          "text": "who are you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Refund_Payment",
+      "examples": [
+        {
+          "text": "Where can I get refunds?"
+        },
+        {
+          "text": "Arrange refund"
+        },
+        {
+          "text": "Can I get a refund on the activation fee?"
+        },
+        {
+          "text": "Can I get a refund when my internet was out for 6 hours?"
+        },
+        {
+          "text": "Can I get my last month refunded due to the contract cancelation?"
+        },
+        {
+          "text": "Can I just have a full refund?"
+        },
+        {
+          "text": "Can you refund all payments?"
+        },
+        {
+          "text": "Do I get a refund if I paid too much?"
+        },
+        {
+          "text": "I am unfairly charged. am I going to be refunded?"
+        },
+        {
+          "text": "I paid my bill twice last month. can you refund my last payment?"
+        },
+        {
+          "text": "I want a refund on the previous purchase I made."
+        },
+        {
+          "text": "I was charged for services that I don't subscribe to. how can I go about getting a refund"
+        },
+        {
+          "text": "I was overcharged on my last bill, I need that refunded."
+        },
+        {
+          "text": "I would like a refund for the service outage last month please."
+        },
+        {
+          "text": "If I cancel some services which have been prepaid, can I receive a refund for part of what has already been paid? what is your refund policy?"
+        },
+        {
+          "text": "Is it possible to refund the latest payment that I made?"
+        },
+        {
+          "text": "My credit card was double charged for my last bill. how do I get the extra charge refunded to it?"
+        },
+        {
+          "text": "My service was interrupted for 5 days. I would like a refund based on the time that the service was unavailable."
+        },
+        {
+          "text": "Refund my payment"
+        },
+        {
+          "text": "Who do I have to speak to get a refund on one of my payments?"
+        }
+      ],
+      "description": "Request a refund for a payment."
+    },
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "I want to modify an order made"
+        },
+        {
+          "text": "I want to update my order."
+        },
+        {
+          "text": "I would like to add additional items to an order."
+        },
+        {
+          "text": "I would like to modify an order I made."
+        },
+        {
+          "text": "I'd like to change some things with my most recent order"
+        },
+        {
+          "text": "Is there a way to modify a previous order?"
+        },
+        {
+          "text": "I ordered a new watch today but forgot to add an extra charger. can you please add it to my original order."
+        },
+        {
+          "text": "How do I change the watch that I ordered?"
+        },
+        {
+          "text": "Can I change my order for a new device?"
+        },
+        {
+          "text": "Can I change the number on the order from three to four?"
+        },
+        {
+          "text": "Can you change the order I just placed?"
+        },
+        {
+          "text": "Can you help me modify the order that I just placed?"
+        },
+        {
+          "text": "Changed mind on last order"
+        },
+        {
+          "text": "Hey I would like to change the delivery date on my order please"
+        },
+        {
+          "text": "How can I chance my order?"
+        },
+        {
+          "text": "I need to amend the order I placed yesterday please"
+        },
+        {
+          "text": "I need to change my order help please"
+        },
+        {
+          "text": "I need to make a change to my current order"
+        },
+        {
+          "text": "I want to change my last order but I don't want to cancel it. can I do that?"
+        },
+        {
+          "text": "I want to edit an order"
+        }
+      ],
+      "description": "Change or modify a placed order."
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "what's up"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Welcome"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hai"
+        },
+        {
+          "text": "Hello"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Good_Bye",
+      "examples": [
+        {
+          "text": "Have a nice day"
+        },
+        {
+          "text": "Good bye"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Talk to you soon"
+        },
+        {
+          "text": "See you soon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "Can you help me to cancel my last order?"
+        },
+        {
+          "text": "Can you help me to cancel the order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "Cancel existing order"
+        },
+        {
+          "text": "Cancel order placed earlier"
+        },
+        {
+          "text": "Cancel order submitted today"
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I recently placed an order for a new phone online. I've changed my mind. can you please cancel my order?"
+        },
+        {
+          "text": "I want to cancel the new device switch order I placed"
+        },
+        {
+          "text": "I want to cancel the order"
+        },
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        }
+      ],
+      "description": "Cancel an order."
+    },
+    {
+      "intent": "location_info",
+      "examples": [
+        {
+          "text": "milan",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "locations in TamilNadu",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                13,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "do you deliver in Hyderabad",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                18,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "dubai",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "hyderbad",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Are you located physically?"
+        },
+        {
+          "text": "list of your locations"
+        },
+        {
+          "text": "Where are your stores?"
+        },
+        {
+          "text": "Where are you physically located?"
+        },
+        {
+          "text": "What are your locations?"
+        },
+        {
+          "text": "Give me a list of locations"
+        },
+        {
+          "text": "in which countries your stores are available"
+        },
+        {
+          "text": "how many stores are there through out the world",
+          "mentions": [
+            {
+              "entity": "OtherLocations",
+              "location": [
+                42,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "text": "in which cities are you available in India",
+          "mentions": [
+            {
+              "entity": "OtherLocations",
+              "location": [
+                37,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you available in telangana",
+          "mentions": [
+            {
+              "entity": "OtherLocations",
+              "location": [
+                21,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where will you deliver in AndhraPradesh",
+          "mentions": [
+            {
+              "entity": "OtherLocations",
+              "location": [
+                26,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "locations in karnataka",
+          "mentions": [
+            {
+              "entity": "OtherLocations",
+              "location": [
+                13,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "list of locations in kerala",
+          "mentions": [
+            {
+              "entity": "OtherLocations",
+              "location": [
+                21,
+                27
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intent": "hours_info",
+      "examples": [
+        {
+          "text": "What time are you open until?"
+        },
+        {
+          "text": "paris timings",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are the hours of operation for your Hyderabad store",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                41,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are you hours of operation in Bangalore",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                35,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are your bihar timings",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                14,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are your china store timings",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                14,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are your iran timings",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                14,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are your canada timings",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are your spain store timings",
+          "mentions": [
+            {
+              "entity": "nolocation",
+              "location": [
+                14,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are your Indian store timings",
+          "mentions": [
+            {
+              "entity": "OtherLocations",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "all stores timings in kerala",
+          "mentions": [
+            {
+              "entity": "OtherLocations",
+              "location": [
+                22,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Are you open on Sundays?"
+        },
+        {
+          "text": "What are your hours?"
+        },
+        {
+          "text": "What are your hours of operation?"
+        },
+        {
+          "text": "store timings"
+        },
+        {
+          "text": "Are you open on Saturdays?"
+        },
+        {
+          "text": "Are you open on Christmas' Day?"
+        },
+        {
+          "text": "When do you close"
+        },
+        {
+          "text": "What days are you closed on?"
+        },
+        {
+          "text": "When are you open"
+        },
+        {
+          "text": "When do you open"
+        },
+        {
+          "text": "what are your timings?"
+        }
+      ]
+    },
+    {
+      "intent": "eCommerce_Create_Product_Order",
+      "examples": [
+        {
+          "text": "how to order"
+        },
+        {
+          "text": "Make the order again"
+        },
+        {
+          "text": "What are the methods to place an order?"
+        },
+        {
+          "text": "Purchase something new"
+        },
+        {
+          "text": "Place order for device"
+        },
+        {
+          "text": "Order and payment for device"
+        },
+        {
+          "text": "Ok order this for me"
+        },
+        {
+          "text": "Buy accessories"
+        },
+        {
+          "text": "Can I order some products?"
+        },
+        {
+          "text": "Help me to create a new order"
+        },
+        {
+          "text": "How do I go about placing an order with you?"
+        },
+        {
+          "text": "I am ready to order now."
+        },
+        {
+          "text": "I want to reorder"
+        },
+        {
+          "text": "I would like to purchase a new device for cash"
+        },
+        {
+          "text": "Where I can order?"
+        },
+        {
+          "text": "Where to buy a watch?"
+        },
+        {
+          "text": "I need a new watch"
+        },
+        {
+          "text": "Can you tell me which watches are on sale this week? I want to buy a new watch?"
+        }
+      ],
+      "description": "Place an order."
+    },
+    {
+      "intent": "Product_Info",
+      "examples": [
+        {
+          "text": "ovarcharging prevention function"
+        },
+        {
+          "text": "setting  calendar"
+        },
+        {
+          "text": "time setting warning function"
+        },
+        {
+          "text": "optimal operation of watch"
+        },
+        {
+          "text": "charging precautions"
+        },
+        {
+          "text": "low power warning"
+        },
+        {
+          "text": "checking 0-position"
+        },
+        {
+          "text": "guide to charging time"
+        },
+        {
+          "text": "periodically expose the watch dial to daylight"
+        },
+        {
+          "text": "about eco drive watches"
+        },
+        {
+          "text": "name of components"
+        },
+        {
+          "text": "model indication"
+        },
+        {
+          "text": "power saving function"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "Thnx"
+        },
+        {
+          "text": "Appreciate it"
+        },
+        {
+          "text": "Cheers"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thanks"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hyderabad",
+          "synonyms": [
+            "hydrabad",
+            "bagyanagaram"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Amaravati",
+          "synonyms": [
+            "amaravathi",
+            "amravathi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TamilNadu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bangalore",
+          "synonyms": [
+            "banglore",
+            "bengaluru"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chennai",
+          "synonyms": [
+            "madras"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Thiruvananthapuram",
+          "synonyms": [
+            "tiruvananthapuram",
+            "tiruvanantapuram",
+            "thiruvananthapuram"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nolocation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "canada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "spain",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dubai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "USA",
+          "synonyms": [
+            "United States Of America"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Europe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Asia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paris",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "milan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bihar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "china",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "iran",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "OtherLocations",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "World",
+          "synonyms": [
+            "Earth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AndhraPradesh",
+          "synonyms": [
+            "Andhra Pradesh"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Karnataka",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kerala",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tamilnadu",
+          "synonyms": [
+            "Tamil Nadu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Telangana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "India",
+          "synonyms": [
+            "Indian"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "not at all",
+            "nope",
+            "not now"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "ok",
+            "y",
+            "sure",
+            "please",
+            "yeah",
+            "why not"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/web/17k91a0578%40tkrcet.com_dev/default/manual-action.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1591174068480",
+      "disabled": true,
+      "dialog_node": "response_4_1591174133163",
+      "previous_sibling": "slot_7_1591174091684"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1591174068480",
+      "variable": "$city",
+      "dialog_node": "slot_7_1591174091684"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are available through out Chennai"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1590587177474",
+      "conditions": "$city:Chennai",
+      "dialog_node": "response_1_1591171815329",
+      "previous_sibling": "response_3_1591171808722"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are available through out Bangalore"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1590587177474",
+      "conditions": "$city:Bangalore",
+      "dialog_node": "response_3_1591171808722",
+      "previous_sibling": "response_8_1591171769770"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are available through out Hyderabad"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1590587177474",
+      "conditions": "$city:Hyderabad",
+      "dialog_node": "response_7_1591171632645",
+      "previous_sibling": "slot_3_1591171646615"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are available through out Thiruvananthapuram"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1590587177474",
+      "conditions": "$city:Thiruvananthapuram",
+      "dialog_node": "response_1_1591171819989",
+      "previous_sibling": "response_1_1591171815329"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are available through out Amaravathi"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1590587177474",
+      "conditions": "$city:Amaravathi",
+      "dialog_node": "response_8_1591171769770",
+      "previous_sibling": "response_7_1591171632645"
+    },
+    {
+      "type": "slot",
+      "parent": "node_13_1590587177474",
+      "variable": "$city",
+      "dialog_node": "slot_3_1591171646615"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1591177775424",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1591177775459",
+      "previous_sibling": "handler_2_1591177775459"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1591177775424",
+      "context": {
+        "city": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_2_1591177775459"
+    },
+    {
+      "type": "standard",
+      "title": "Good_bye_Dialog",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice talking to you today."
+              },
+              {
+                "text": "Have a nice day."
+              },
+              {
+                "text": "Goodbye."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1590302791395",
+      "conditions": "#Good_Bye",
+      "dialog_node": "node_7_1590303504276",
+      "previous_sibling": "node_2_1590303252782"
+    },
+    {
+      "type": "standard",
+      "title": "Thanks_Dialog",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you need anything else."
+              },
+              {
+                "text": "My pleasure"
+              },
+              {
+                "text": "No problem. Let me know if there is anything else I can help with"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1590302791395",
+      "conditions": "#Thanks",
+      "dialog_node": "node_2_1590303252782",
+      "previous_sibling": "node_8_1590303196810"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings_Dialog",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there. How can I help you?"
+              },
+              {
+                "text": "Hello. How may I assist you today?"
+              },
+              {
+                "text": "Hi. What can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1590302791395",
+      "conditions": "#Greetings",
+      "dialog_node": "node_8_1590303196810"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1591174091684",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1591174091725",
+      "previous_sibling": "handler_9_1591174091725"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1591174091684",
+      "context": {
+        "city": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_9_1591174091725"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We don't have such information"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1590665239203",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1590665338470",
+      "previous_sibling": "response_1_1590665334456"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<?$webhook_result_1.results[0].text?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1590665239203",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_1_1590665334456"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In AndhraPradesh we are available in Amaravati and store timings are \"Everyday from 7 A.M to 10 P.M\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1591182257820",
+      "conditions": "@OtherLocations:AndhraPradesh",
+      "dialog_node": "response_9_1591182361892",
+      "previous_sibling": "response_10_1591182336031"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In India we are available in Hyderabad, Amaravati, Bangalore, Chennai, Thiruvananthapuram. Check timings in your area."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1591182257820",
+      "conditions": "@OtherLocations:India",
+      "dialog_node": "response_4_1591182421776",
+      "previous_sibling": "response_4_1591182392289"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are available only in India."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1591182257820",
+      "conditions": "@OtherLocations:World",
+      "dialog_node": "response_2_1591182430415",
+      "previous_sibling": "response_4_1591182421776"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In Tamilnadu we are available in Chennai and store timings are \"Everyday from 7 A.M to 10 P.M\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1591182257820",
+      "conditions": "@OtherLocations:Tamilnadu",
+      "dialog_node": "response_7_1591182380654",
+      "previous_sibling": "response_4_1591182374340"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In Karnataka we are available in Bangalore and store timings are \"Everyday from 7 A.M to 10 P.M\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1591182257820",
+      "conditions": "@OtherLocations:Karnataka",
+      "dialog_node": "response_4_1591182374340",
+      "previous_sibling": "response_9_1591182361892"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In Kerala we are available in Thiruvananthapuram and store timings are \"Everyday from 7 A.M to 10 P.M\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1591182257820",
+      "conditions": "@OtherLocations:Kerala",
+      "dialog_node": "response_4_1591182392289",
+      "previous_sibling": "response_7_1591182380654"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In Telangana we are available in Hyderabad and store timings are \"Everyday from 7 A.M to 10 P.M\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591182257820",
+      "conditions": "@OtherLocations:Telangana",
+      "dialog_node": "response_10_1591182336031"
+    },
+    {
+      "type": "standard",
+      "title": "Other details",
+      "output": {
+        "generic": [
+          {
+            "title": "Select the city",
+            "options": [
+              {
+                "label": "HYDERABAD",
+                "value": {
+                  "input": {
+                    "text": "Hyderbad timinngs"
+                  }
+                }
+              },
+              {
+                "label": "AMARAVATI",
+                "value": {
+                  "input": {
+                    "text": "Amravati timings"
+                  }
+                }
+              },
+              {
+                "label": "BANGALORE",
+                "value": {
+                  "input": {
+                    "text": "Bangalore timings"
+                  }
+                }
+              },
+              {
+                "label": "CHENNAI",
+                "value": {
+                  "input": {
+                    "text": "Chennai timings"
+                  }
+                }
+              },
+              {
+                "label": "THIRUVANANTHAPURAM",
+                "value": {
+                  "input": {
+                    "text": "Thiruvananthapuram timings"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1590303825063",
+      "conditions": "true",
+      "dialog_node": "node_1_1591177594903",
+      "previous_sibling": "node_2_1590317987819"
+    },
+    {
+      "type": "standard",
+      "title": "No_Location timings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, we don't have any store in @nolocation. We have Stores only in Hyderabad, Amaravathi, Bangalore, Chennai, Thiruvananthapuram."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1590303825063",
+      "conditions": "@nolocation",
+      "dialog_node": "node_2_1590317987819",
+      "previous_sibling": "node_9_1591182257820"
+    },
+    {
+      "type": "frame",
+      "title": "yes_location timings",
+      "parent": "node_10_1590303825063",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@location",
+      "dialog_node": "node_5_1590316914835",
+      "previous_sibling": "response_5_1591090420570"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1590303825063",
+      "disabled": true,
+      "conditions": "$city",
+      "dialog_node": "response_3_1591090149702",
+      "previous_sibling": "slot_3_1590320397855"
+    },
+    {
+      "type": "standard",
+      "title": "Other store timings",
+      "parent": "node_10_1590303825063",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@OtherLocations",
+      "dialog_node": "node_9_1591182257820",
+      "previous_sibling": "node_5_1590316914835"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "No store available"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1590303825063",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1591090420570",
+      "previous_sibling": "response_3_1591090149702"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1590303825063",
+      "variable": "$city",
+      "dialog_node": "slot_3_1590320397855"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1591086303502",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1591086303525",
+      "previous_sibling": "handler_8_1591086303525"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1591086303502",
+      "event_name": "input",
+      "dialog_node": "handler_8_1591086303525"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like me to transfer you to a representative?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591085724908",
+      "disabled": true,
+      "dialog_node": "response_9_1591086315315",
+      "previous_sibling": "node_5_1591087189704"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1591085724908",
+      "dialog_node": "slot_6_1591086303502",
+      "previous_sibling": "response_9_1591086315315"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok,How can i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591085724908",
+      "conditions": "@response:no",
+      "dialog_node": "node_5_1591087189704",
+      "previous_sibling": "node_3_1591087114283"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Transferring.Please wait...."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591085724908",
+      "conditions": "@response:yes",
+      "dialog_node": "node_3_1591087114283"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1591171646615",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1591171646661",
+      "previous_sibling": "handler_8_1591171646661"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1591171646615",
+      "context": {
+        "city": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_8_1591171646661"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "In which city"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1590320397855",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1590320397880",
+      "previous_sibling": "handler_2_1590320397880"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1590320397855",
+      "context": {
+        "city": "@location"
+      },
+      "conditions": "@location",
+      "event_name": "input",
+      "dialog_node": "handler_2_1590320397880"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In Tamil Nadu we are available in Chennai"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1590587177474",
+      "conditions": "@OtherLocations:Tamilnadu",
+      "dialog_node": "response_3_1591172376340",
+      "previous_sibling": "response_10_1591172374277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are available only in India"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1590587177474",
+      "conditions": "@OtherLocations:World",
+      "dialog_node": "response_9_1591172380892",
+      "previous_sibling": "response_8_1591172378949"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In Andhra Pradesh we are available in Amaravati"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1590587177474",
+      "conditions": "@OtherLocations:AndhraPradesh",
+      "dialog_node": "response_7_1591172372608",
+      "previous_sibling": "response_7_1591172207725"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In Karnataka we are available in Bangalore"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1590587177474",
+      "conditions": "@OtherLocations:Karnataka",
+      "dialog_node": "response_10_1591172374277",
+      "previous_sibling": "response_7_1591172372608"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In India we are available in Hyderabad, Amaravati, Bangalore, Chennai, Thiruvananthapuram"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1590587177474",
+      "conditions": "@OtherLocations:India",
+      "dialog_node": "response_8_1591172378949",
+      "previous_sibling": "response_7_1591172377670"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "In Kerala we are available in Thiruvananthapuram"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1590587177474",
+      "conditions": "@OtherLocations:Kerala",
+      "dialog_node": "response_7_1591172377670",
+      "previous_sibling": "response_3_1591172376340"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In Telangana we are available in Hyderabad"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1590587177474",
+      "conditions": "@OtherLocations:Telangana",
+      "dialog_node": "response_7_1591172207725"
+    },
+    {
+      "type": "standard",
+      "title": "Other_Locations",
+      "parent": "node_12_1590587177465",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@OtherLocations",
+      "dialog_node": "node_14_1590587177474",
+      "previous_sibling": "node_13_1590587177474"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1590587177465",
+      "disabled": true,
+      "conditions": "$city:Chennai",
+      "dialog_node": "response_21_1590587177474",
+      "previous_sibling": "response_20_1590587177474"
+    },
+    {
+      "type": "frame",
+      "title": "Other than all",
+      "output": {
+        "generic": [
+          {
+            "title": "Select The City",
+            "options": [
+              {
+                "label": "HYDERABAD",
+                "value": {
+                  "input": {
+                    "text": "We are available through out Hyderabad"
+                  }
+                }
+              },
+              {
+                "label": "AMARAVATI",
+                "value": {
+                  "input": {
+                    "text": "We are available through out Amaravati"
+                  }
+                }
+              },
+              {
+                "label": "BANGALORE",
+                "value": {
+                  "input": {
+                    "text": "We are available through out Bangalore"
+                  }
+                }
+              },
+              {
+                "label": "CHENNAI",
+                "value": {
+                  "input": {
+                    "text": "We are available through out Chennai"
+                  }
+                }
+              },
+              {
+                "label": "THIRUVANANTHAPURAM",
+                "value": {
+                  "input": {
+                    "text": "We are available through out Thiruvananthapuram"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_12_1590587177465",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1591174068480",
+      "previous_sibling": "node_10_1591172866594"
+    },
+    {
+      "type": "frame",
+      "title": "City_location",
+      "parent": "node_12_1590587177465",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@location",
+      "dialog_node": "node_13_1590587177474",
+      "previous_sibling": "response_22_1590587177474"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1590587177465",
+      "disabled": true,
+      "conditions": "$city:Bangalore",
+      "dialog_node": "response_20_1590587177474",
+      "previous_sibling": "response_19_1590587177474"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1590587177465",
+      "disabled": true,
+      "conditions": "$city:Warangal",
+      "dialog_node": "response_19_1590587177474",
+      "previous_sibling": "response_18_1590587177474"
+    },
+    {
+      "type": "standard",
+      "title": "No Stores Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, we don't have any store in @nolocation. We have Stores only in Hyderabad, Amaravathi, Bangalore, Chennai, Thiruvananthapuram."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1590587177465",
+      "conditions": "@nolocation",
+      "dialog_node": "node_10_1591172866594",
+      "previous_sibling": "node_14_1590587177474"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Everyday 7 A.M - 10 P.M"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1590587177465",
+      "disabled": true,
+      "conditions": "$city:Hyderabad",
+      "dialog_node": "response_18_1590587177474",
+      "previous_sibling": "slot_15_1590587177474"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1590587177465",
+      "disabled": true,
+      "conditions": "$city:Thiruvananthapuram",
+      "dialog_node": "response_22_1590587177474",
+      "previous_sibling": "response_21_1590587177474"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_12_1590587177465",
+      "variable": "$city_info",
+      "dialog_node": "slot_15_1590587177474"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday from 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1590316914835",
+      "conditions": "$city:Bangalore",
+      "dialog_node": "response_4_1591177835330",
+      "previous_sibling": "response_2_1591177828818"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Everyday from 7 A.M - 10 P.M"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590316914835",
+      "conditions": "$city:Hyderabad",
+      "dialog_node": "response_1_1591177774523",
+      "previous_sibling": "slot_10_1591177775424"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday from 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1590316914835",
+      "conditions": "$city:Thiruvananthapuram",
+      "dialog_node": "response_4_1591177842800",
+      "previous_sibling": "response_4_1591177839468"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday from 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1590316914835",
+      "conditions": "$city:Chennai",
+      "dialog_node": "response_4_1591177839468",
+      "previous_sibling": "response_4_1591177835330"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Everyday from 7 A.M - 10 P.M"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1590316914835",
+      "conditions": "$city:Amaravati",
+      "dialog_node": "response_2_1591177828818",
+      "previous_sibling": "response_1_1591177774523"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1590316914835",
+      "variable": "$city",
+      "dialog_node": "slot_10_1591177775424"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "In which city"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_15_1590587177474",
+      "event_name": "focus",
+      "dialog_node": "handler_17_1590587177474",
+      "previous_sibling": "handler_16_1590587177474"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1590587177474",
+      "context": {
+        "city_info": "@location:Hyderabad || @location:Amaravati || @location:Chennai || @location:Bangalore || @location:Thiruvananthapuram"
+      },
+      "conditions": "@location:Hyderabad || @location:Amaravati || @location:Chennai || @location:Bangalore || @location:Thiruvananthapuram",
+      "event_name": "input",
+      "dialog_node": "handler_16_1590587177474"
+    },
+    {
+      "type": "standard",
+      "title": "Hours_Dialog",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#hours_info",
+      "dialog_node": "node_10_1590303825063",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "info about product",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Product_Info",
+      "dialog_node": "node_6_1590665239203",
+      "previous_sibling": "node_8_1590302791395"
+    },
+    {
+      "type": "standard",
+      "title": "Product Order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "->Please visit our official website...                                                                           ->Browse the website to find the watch                                                                  \n->Select the watch you want to buy                                                      \n->Then place the order by completing the payment "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Create_Product_Order",
+      "dialog_node": "node_7_1591087635023",
+      "previous_sibling": "node_6_1590665239203"
+    },
+    {
+      "type": "standard",
+      "title": "Location_Dialog",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#location_info",
+      "dialog_node": "node_12_1590587177465",
+      "previous_sibling": "node_10_1590303825063"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1591085724908",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Customer Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like me to transfer you to our representative?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#eCommerce_Cancel_Product_Order || #eCommerce_Modify_Product_Order || #eCommerce_Past_Payment_Inquiry || #eCommerce_Refund_Payment",
+      "dialog_node": "node_9_1591085724908",
+      "previous_sibling": "node_6_1591088621360"
+    },
+    {
+      "type": "folder",
+      "title": "Basic coversation",
+      "dialog_node": "node_8_1590302791395",
+      "previous_sibling": "node_12_1590587177465"
+    },
+    {
+      "type": "standard",
+      "title": "Method Of Payment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We accept all kinds of credit and debit cards, cash on delivery, and also accept all online payments....For any further queries please contact us on \"+911234567890\" or mail us on gsk5stores\\@gsk.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Method_Of_Payment",
+      "dialog_node": "node_6_1591088621360",
+      "previous_sibling": "node_7_1591087635023"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello.I'm your JamesBot and I'm here to assist you with your questions about store hours, locations etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || #about_assistant",
+      "digress_in": "does_not_return",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Basic Info skill",
+  "language": "en",
+  "description": ""
+}
